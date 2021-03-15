@@ -23,7 +23,12 @@ func main() {
 		fmt.Println(l, j)
 	}
 
+	idontknow := [...]string{"harsh", "cristiano", "seema", "pragiee"}
+
 	arraydisplay(names)
+	for h, g := range idontknow {
+		fmt.Print(h, g, " ")
+	}
 
 }
 
